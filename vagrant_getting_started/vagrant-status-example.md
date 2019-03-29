@@ -1,4 +1,5 @@
 # Example: vagrant status
+Use ```vagrant status``` to check whether a machine is up or down.
 
 ```shell
 $ vagrant status
