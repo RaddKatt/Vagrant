@@ -2,6 +2,8 @@
 
 ```shell
 $ vagrant status
+```
+```
 Current machine states:
 
 default                   running (virtualbox)
