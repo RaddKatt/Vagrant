@@ -1,3 +1,4 @@
+# Example: vagrant up
 ```shell
 $ vagrant up --provider virtualbox
 ```
