@@ -1,5 +1,7 @@
 ```shell
 $ vagrant up --provider virtualbox
+```
+```shell
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Box 'hashicorp/precise64' could not be found. Attempting to find and install...
     default: Box Provider: virtualbox
