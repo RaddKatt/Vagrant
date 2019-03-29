@@ -1,8 +1,10 @@
 # Example: vagrant up
+Use ```vagrant up``` to create a new virtual machine. Use ```--provider <name>``` to specify a VM provider, like Virtualbox, Docker, Hyper-V, VMware, etc.
+
 ```shell
 $ vagrant up --provider virtualbox
 ```
-```shell
+```
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Box 'hashicorp/precise64' could not be found. Attempting to find and install...
     default: Box Provider: virtualbox
