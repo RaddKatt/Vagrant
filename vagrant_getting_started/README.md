@@ -1,5 +1,7 @@
 This will place a Vagrantfile in your current directory:
-* ```$ vagrant init hashicorp/precise64```
+* ```shell
+$ vagrant init hashicorp/precise64
+```
 * Example:
 	* ```$ vagrant init hashicorp/precise64```
 	* ```A `Vagrantfile` has been placed in this directory. You are now
