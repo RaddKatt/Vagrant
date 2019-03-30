@@ -39,4 +39,7 @@ total 48
     <b>config.vm.synced_folder "opt","/opt"</b>
     </pre>
   </li>
+  <li>
+    Stuff
+  </li>
 </ol>
