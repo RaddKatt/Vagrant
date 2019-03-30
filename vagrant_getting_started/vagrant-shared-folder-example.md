@@ -50,12 +50,12 @@ total 48
   <li>
   To verify the shared folder, connect to your Vagrant VM and check the folder location. It should match the new local folder you created:
   <pre>
-  $ vagrant ssh
+  <b>$ vagrant ssh</b>
   Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-143-generic x86_64)
   ...
-  vagrant@ubuntu-xenial:~$ ls -l /opt
-total 4
--rw-r--r-- 1 vagrant vagrant 47 Mar 30 17:03 test.txt</pre>
+  <b>vagrant@ubuntu-xenial:~$ ls -l /opt</b>
+  total 4
+  -rw-r--r-- 1 vagrant vagrant 47 Mar 30 17:03 test.txt</pre>
   </pre>
   </li>
 </ol>
