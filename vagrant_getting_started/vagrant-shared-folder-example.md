@@ -75,3 +75,4 @@ If you would like to disable the default Vagrant shared folder, `/vagrant`, you 
   # config.vm.synced_folder "../data", "/vagrant_data"
   <b>config.vm.synced_folder ".", "/vagrant", disabled: true</b>
   config.vm.synced_folder "opt", "/opt"</pre>
+<code><b>$ vagrant reload</b></code>
