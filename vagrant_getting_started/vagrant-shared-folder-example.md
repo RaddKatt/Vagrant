@@ -1,5 +1,5 @@
 # Example: Shared Folder
-Vagrant can be configured to easily share folders between the local host and VM, so you can use all the development tools on your localhost that you like to use, without having to add them to your virtual machine.
+Vagrant can be configured to easily share folders between the local host and VM, so you can use all the development tools that you like to use on your localhost, without having to add them to your virtual machine.
 
 To add a shared folder, create a new stanza in your Vagrantfile:
 <pre>
