@@ -3,6 +3,7 @@ Vagrant can easily share folders between the localhost and VM, so you can use al
 
 * [Default Shared Folder](#default-shared-folder)
 * [Example: Add a Shared Folder](#example-add-a-shared-folder)
+* [Disabled Default Shared Folder](#disable-the-default-shared-folder)
 
 ## Default Shared Folder
 By default, main Vagrant folder on your localhost (folder which contains your Vagrantfile) is shared on your VM in the folder `/vagrant`.
@@ -39,7 +40,7 @@ $ vagrant ssh
     # the path on the guest to mount the folder. And the optional third
     # argument is a set of non-required options.
     # config.vm.synced_folder "../data", "/vagrant_data"
-    <b>config.vm.synced_folder "opt","/opt"</b></pre></li>
+    <b>config.vm.synced_folder "opt", "/opt"</b></pre></li>
   <li>
     To apply the changes, you must restart the VM. To do this, Vagrant has the command <code>vagrant reload</code>:<br /><br />
     <pre><b>$ vagrant reload</b>
@@ -62,3 +63,15 @@ $ vagrant ssh
   </pre>
   </li>
 </ol>
+
+## Disable the Default Shared Folder
+If you would like to disable the default Vagrant shared folder, `vagrant`, you may do so by adding this stanza to your Vagrantfile:
+<code><b>$ vim Vagrantfile</b></code>
+<pre>
+# Share an additional folder to the guest VM. The first argument is
+# the path on the host to the actual folder. The second argument is
+# the path on the guest to mount the folder. And the optional third
+# argument is a set of non-required options.
+# config.vm.synced_folder "../data", "/vagrant_data"
+<b>config.vm.synced_folder ".", "/vagrant", disabled: true</b>
+config.vm.synced_folder "opt", "/opt"</pre>
