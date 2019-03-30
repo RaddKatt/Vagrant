@@ -1,8 +1,8 @@
 # Example: vagrant status
 Use `vagrant status` to check whether a machine is up or down.
 
-<code><b>$ vagrant status</b></code>
-<pre>Current machine states:
+<pre><b>$ vagrant status</b>
+Current machine states:
 
 default                   running (virtualbox)
 
