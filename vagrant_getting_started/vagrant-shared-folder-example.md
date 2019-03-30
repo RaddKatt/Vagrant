@@ -38,6 +38,15 @@ total 48
     # config.vm.synced_folder "../data", "/vagrant_data"
     <b>config.vm.synced_folder "opt","/opt"</b></pre></li>
   <li>
-    Stuff
+    To apply the changes, you must restart the VM. To do this, Vagrant has the command <code>vagrant reload</code>:<br /><br />
+    <pre>
+    <b>$ vagrant reload</b>
+    ==> default: Attempting graceful shutdown of VM...
+    ==> default: Checking if box 'ubuntu/xenial64' version '20190325.0.0' is up to date...
+    ==> default: Clearing any previously set forwarded ports...
+    ...
+    ==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+    ==> default: flag to force provisioning. Provisioners marked to run always will still run.
+    </pre>
   </li>
 </ol>
