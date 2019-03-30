@@ -27,6 +27,7 @@ total 48
 ## Example: Add a Shared Folder
 
 1. To add a shared folder, create a new stanza in your Vagrantfile, `config.vm.synced_folder`. The first argument is the directory on the local machine, and the second argument is where the shared folder will live on the VM:
+`$ vim Vagrantfile`
 <pre>
 # Share an additional folder to the guest VM. The first argument is
 # the path on the host to the actual folder. The second argument is
