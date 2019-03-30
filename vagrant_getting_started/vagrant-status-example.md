@@ -1,9 +1,9 @@
 # Example: vagrant status
-Use ```vagrant status``` to check whether a machine is up or down.
+Use <pre><b>vagrant status</pre></b> to check whether a machine is up or down.
 
-```shell
-$ vagrant status
-```
+<pre>
+<b>$ vagrant status</b>
+</pre>
 ```
 Current machine states:
 
