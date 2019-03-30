@@ -8,3 +8,4 @@ Add the following stanza to your Vagrantfile:
 # config.vm.synced_folder "../data", "/vagrant_data"
 <b>config.vm.synced_folder "opt","/opt"<b>
 </pre>
+ZXc
