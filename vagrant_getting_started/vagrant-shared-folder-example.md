@@ -1,6 +1,9 @@
 # Shared Folder
 Vagrant can easily share folders between the localhost and VM, so you can use all the development tools that you like to use from your localhost, without having to add them to your virtual machine.
 
+* [Default Shared Folder](#default-shared-folder)
+* [Example: Add a Shared Folder](#example-add-a-shared-folder)
+
 ## Default Shared Folder
 By default, main Vagrant folder on your localhost (folder which contains your Vagrantfile) is shared on your VM in the folder `/vagrant`.
 
