@@ -5,7 +5,7 @@ $ vagrant init hashicorp/precise64
 ```
 Example:
 <pre>
-$ vagrant init hashicorp/precise64
+<b>$ vagrant init hashicorp/precise64<b>
   A `Vagrantfile` has been placed in this directory. You are now
   ready to `vagrant up` your first virtual environment! Please read
   the comments in the Vagrantfile as well as documentation on
