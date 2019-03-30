@@ -1,2 +1,4 @@
+.DS_Store
 **/.vagrant
 *-console.log
+vagrant_getting_started/boxes/ubuntu/xenial64/opt/
