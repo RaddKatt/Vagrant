@@ -1,5 +1,5 @@
 # Example: vagrant status
-Use ```vagrant status``` to check whether a machine is up or down.
+Use `vagrant status` to check whether a machine is up or down.
 
 <pre>
 <b>$ vagrant status</b>

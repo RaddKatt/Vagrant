@@ -1,5 +1,5 @@
 # Example: vagrant up
-Use ```vagrant up``` to create a new virtual machine. Use ```--provider <name>``` to specify a VM provider, like Virtualbox, Docker, Hyper-V, VMware, etc.
+Use `vagrant up` to create a new virtual machine. Use `--provider <name>` to specify a VM provider, like Virtualbox, Docker, Hyper-V, VMware, etc.
 
 <pre>
 <b>$ vagrant up --provider virtualbox</b>
