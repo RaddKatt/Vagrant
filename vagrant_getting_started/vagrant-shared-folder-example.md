@@ -7,4 +7,4 @@ Add the following stanza to your Vagrantfile:
 # argument is a set of non-required options.
 # config.vm.synced_folder "../data", "/vagrant_data"
 <b>config.vm.synced_folder "opt","/opt"<b>
-<pre>
+</pre>
