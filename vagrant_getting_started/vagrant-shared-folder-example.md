@@ -68,10 +68,10 @@ $ vagrant ssh
 If you would like to disable the default Vagrant shared folder, `/vagrant`, you may do so by adding this stanza to your Vagrantfile with a third argument, `disabled: true`:<br /><br />
 <code><b>$ vim Vagrantfile</b></code>
 <pre>
-# Share an additional folder to the guest VM. The first argument is
-# the path on the host to the actual folder. The second argument is
-# the path on the guest to mount the folder. And the optional third
-# argument is a set of non-required options.
-# config.vm.synced_folder "../data", "/vagrant_data"
-<b>config.vm.synced_folder ".", "/vagrant", disabled: true</b>
-config.vm.synced_folder "opt", "/opt"</pre>
+  # Share an additional folder to the guest VM. The first argument is
+  # the path on the host to the actual folder. The second argument is
+  # the path on the guest to mount the folder. And the optional third
+  # argument is a set of non-required options.
+  # config.vm.synced_folder "../data", "/vagrant_data"
+  <b>config.vm.synced_folder ".", "/vagrant", disabled: true</b>
+  config.vm.synced_folder "opt", "/opt"</pre>
