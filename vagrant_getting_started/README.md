@@ -1,3 +1,4 @@
+# Vagrant - Getting Started
 This will place a Vagrantfile in your current directory:
 ```shell
 $ vagrant init hashicorp/precise64
