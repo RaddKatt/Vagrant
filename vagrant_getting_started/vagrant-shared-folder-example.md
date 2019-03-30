@@ -7,21 +7,21 @@ By default, main Vagrant folder on your localhost (folder which contains your Va
 On Localhost:
 <pre>
 $ pwd
-/Vagrant/vagrant_getting_started/boxes/ubuntu/xenial64
+  /Vagrant/vagrant_getting_started/boxes/ubuntu/xenial64
 $ ls -l
-total 96
--rw-r--r--  1 mradka  110264095   3063 Mar 30 09:20 Vagrantfile
--rw-------  1 mradka  110264095  41097 Mar 30 09:21 ubuntu-xenial-16.04-cloudimg-console.log
+  total 96
+  -rw-r--r--  1 mradka  110264095   3063 Mar 30 09:20 Vagrantfile
+  -rw-------  1 mradka  110264095  41097 Mar 30 09:21 ubuntu-xenial-16.04-cloudimg-console.log
 </pre>
 
 On Vagrant VM:
 <pre>
 $ vagrant ssh
-Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-143-generic x86_64)
+  Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-143-generic x86_64)
 <b>vagrant@ubuntu-xenial:~$ ls -l /vagrant/</b>
-total 48
--rw------- 1 vagrant vagrant 41097 Mar 30 16:21 ubuntu-xenial-16.04-cloudimg-console.log
--rw-r--r-- 1 vagrant vagrant  3063 Mar 30 16:20 Vagrantfile
+  total 48
+  -rw------- 1 vagrant vagrant 41097 Mar 30 16:21 ubuntu-xenial-16.04-cloudimg-console.log
+  -rw-r--r-- 1 vagrant vagrant  3063 Mar 30 16:20 Vagrantfile
 </pre>
 
 ## Example: Add a Shared Folder
