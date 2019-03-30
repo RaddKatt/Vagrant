@@ -1,6 +1,6 @@
 # Example: Shared Folder
 Vagrant can be configured to easily share folders between the local host and VM.
-To add a shared folder, add a new stanza to your Vagrantfile:
+To add a shared folder, create a new stanza to your Vagrantfile:
 <pre>
 # Share an additional folder to the guest VM. The first argument is
 # the path on the host to the actual folder. The second argument is
