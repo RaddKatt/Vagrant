@@ -1,16 +1,5 @@
 # Shared Folder
-## Example: Add a Shared Folder
-Vagrant can be configured to easily share folders between the local host and VM, so you can use all the development tools that you like to use from your localhost, without having to add them to your virtual machine.
-
-To add a shared folder, create a new stanza in your Vagrantfile, `config.vm.synced_folder`. The first argument is the directory on the local machine, and the second argument is where the shared folder will live on the VM:
-<pre>
-# Share an additional folder to the guest VM. The first argument is
-# the path on the host to the actual folder. The second argument is
-# the path on the guest to mount the folder. And the optional third
-# argument is a set of non-required options.
-# config.vm.synced_folder "../data", "/vagrant_data"
-<b>config.vm.synced_folder "opt","/opt"</b>
-</pre>
+Vagrant can easily share folders between the local host and VM, so you can use all the development tools that you like to use from your localhost, without having to add them to your virtual machine.
 
 ## Default Shared Folder
 By default, main Vagrant folder on your localhost (folder which contains your Vagrantfile) is shared on your VM in the folder `/vagrant`.
@@ -33,4 +22,16 @@ Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-143-generic x86_64)
 total 48
 -rw------- 1 vagrant vagrant 41097 Mar 30 16:21 ubuntu-xenial-16.04-cloudimg-console.log
 -rw-r--r-- 1 vagrant vagrant  3063 Mar 30 16:20 Vagrantfile
+</pre>
+
+## Example: Add a Shared Folder
+
+To add a shared folder, create a new stanza in your Vagrantfile, `config.vm.synced_folder`. The first argument is the directory on the local machine, and the second argument is where the shared folder will live on the VM:
+<pre>
+# Share an additional folder to the guest VM. The first argument is
+# the path on the host to the actual folder. The second argument is
+# the path on the guest to mount the folder. And the optional third
+# argument is a set of non-required options.
+# config.vm.synced_folder "../data", "/vagrant_data"
+<b>config.vm.synced_folder "opt","/opt"</b>
 </pre>
