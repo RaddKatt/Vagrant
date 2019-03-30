@@ -3,8 +3,6 @@ Use `vagrant up` to create a new virtual machine. Use `--provider <name>` to spe
 
 <pre>
 <b>$ vagrant up --provider virtualbox</b>
-</pre>
-```
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Box 'hashicorp/precise64' could not be found. Attempting to find and install...
     default: Box Provider: virtualbox
@@ -62,5 +60,4 @@ or on a per folder basis within the Vagrantfile:
     default: Guest Additions Version: 4.2.0
     default: VirtualBox Version: 6.0
 ==> default: Mounting shared folders...
-    default: /vagrant => /Users/<username>/Vagrant/vagrant_getting_started
-```
+    default: /vagrant => /Users/<username>/Vagrant/vagrant_getting_started</pre>
