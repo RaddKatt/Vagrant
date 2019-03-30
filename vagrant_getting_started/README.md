@@ -15,3 +15,5 @@ the comments in the Vagrantfile as well as documentation on
 ```
 
 1. [vagrant up Example](vagrant-up-example.md)
+2. [vagrant status Example](vagrant-status-example.md)
+3. [vagrant-shared-folder-example.md](vagrant-shared-folder-example.md)
